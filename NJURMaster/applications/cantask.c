@@ -16,6 +16,9 @@ void mecanum_calc(float vx, float vy, float vw, int16_t speed[])
   static float rotate_ratio_br;
   static float wheel_rpm_ratio;
   
+	int16_t wheel_rpm[4];
+  float   max = 0;
+	uint8_t i;
   if (rotation_center_gimbal)
   {
 //    rotate_ratio_fr = ((glb_struct.wheel_base+glb_struct.wheel_track)/2.0f \
@@ -37,12 +40,11 @@ void mecanum_calc(float vx, float vy, float vw, int16_t speed[])
   wheel_rpm_ratio = 60.0f/(PERIMETER*CHASSIS_DECELE_RATIO);
   
   
-  LIMIT(vx, -MAX_CHASSIS_VX_SPEED, MAX_CHASSIS_VX_SPEED);  //mm/s
-  LIMIT(vy, -MAX_CHASSIS_VY_SPEED, MAX_CHASSIS_VY_SPEED);  //mm/s
-  LIMIT(vw, -MAX_CHASSIS_VR_SPEED, MAX_CHASSIS_VR_SPEED);  //deg/s
+  vx=LIMIT(vx, -MAX_CHASSIS_VX_SPEED, MAX_CHASSIS_VX_SPEED);  //mm/s
+  vy=LIMIT(vy, -MAX_CHASSIS_VY_SPEED, MAX_CHASSIS_VY_SPEED);  //mm/s
+  vw=LIMIT(vw, -MAX_CHASSIS_VR_SPEED, MAX_CHASSIS_VR_SPEED);  //deg/s
   
-  int16_t wheel_rpm[4];
-  float   max = 0;
+
   
   wheel_rpm[0] = (-vx - vy + vw * rotate_ratio_fr) * wheel_rpm_ratio;
   wheel_rpm[1] = ( vx - vy + vw * rotate_ratio_fl) * wheel_rpm_ratio;
@@ -50,7 +52,7 @@ void mecanum_calc(float vx, float vy, float vw, int16_t speed[])
   wheel_rpm[3] = (-vx + vy + vw * rotate_ratio_br) * wheel_rpm_ratio;
 
   //find max item
-  for (uint8_t i = 0; i < 4; i++)
+  for (i = 0; i < 4; i++)
   {
     if (my_abs(wheel_rpm[i]) > max)
       max = my_abs(wheel_rpm[i]);
@@ -59,7 +61,7 @@ void mecanum_calc(float vx, float vy, float vw, int16_t speed[])
   if (max > MAX_WHEEL_RPM)
   {
     float rate = MAX_WHEEL_RPM / max;
-    for (uint8_t i = 0; i < 4; i++)
+    for (i = 0; i < 4; i++)
       wheel_rpm[i] *= rate;
   }
   memcpy(speed, wheel_rpm, 4*sizeof(int16_t));

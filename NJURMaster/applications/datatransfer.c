@@ -892,14 +892,15 @@ unsigned char Verify_CRC16_Check_Sum(uint8_t *pchMessage, uint32_t dwLength)
 void PC_Send_IMU(float pit, float rol, float yaw,float Gim_Pitch, float Gim_Yaw, u32 alt)
 {
 	PC_Send_IMU_t PC_IMU_Message;
+	u8 i=0;
+	u8 sum = 0;
 	PC_IMU_Message.Pitch=pit;
 	PC_IMU_Message.Roll=rol;
 	PC_IMU_Message.Yaw=yaw;
 	PC_IMU_Message.state=alt;
 	PC_IMU_Message.Gimbal_Pitch=Gim_Pitch;
 	PC_IMU_Message.Gimbal_Yaw=Gim_Yaw;
-	u8 i=0;
-	u8 sum = 0;
+
 	data_to_send[0]=0xAA;
 	data_to_send[1]=0xAA;
 	data_to_send[2]=0x01;

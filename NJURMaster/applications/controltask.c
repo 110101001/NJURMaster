@@ -98,8 +98,8 @@ void ChassisControl(float _T)
 
 	if (SysMode!=SYS_CALISTATE&&SysMode!=SYS_STOPSTATE)
 	{
-		ChassisSpeedSet(CAN1,CMOutput1,CMOutput2,CMOutput3,CMOutput4);
-		//ChassisSpeedSet(CAN1,0,0,0,0);
+		//ChassisSpeedSet(CAN1,CMOutput1,CMOutput2,CMOutput3,CMOutput4);
+		ChassisSpeedSet(CAN1,0,0,0,0);
 	}
 	else
 	{
