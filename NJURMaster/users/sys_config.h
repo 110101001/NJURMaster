@@ -92,7 +92,8 @@
 #define GIMBALP_Pos_PID_OFF 	{	6.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define GIMBALP_Vec_PID_OFF 	{	20.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define GIMBALY_Pos_PID_OFF 	{	20.0f,	1.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
-#define GIMBALY_Vec_PID_OFF 	{	20.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
+//#define GIMBALY_Vec_PID_OFF 	{	20.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
+#define GIMBALY_Vec_PID_OFF 	{	2.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define SLIBLIN_Pos_PID_OFF 	{	1.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define SLIBLIN_Vec_PID_OFF 	{	1.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 

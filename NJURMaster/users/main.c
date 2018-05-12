@@ -7,10 +7,10 @@
   */
 int main()
 {
-
+	//int i=0;
 	AppInit();
 	All_Init();
-
+	//GimbalCurrentSet(CAN1,0,0,0);
 	while (1)
 	{
 		if (ParaSavingFlag)

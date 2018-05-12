@@ -98,12 +98,13 @@ void ChassisControl(float _T)
 
 	if (SysMode!=SYS_CALISTATE&&SysMode!=SYS_STOPSTATE)
 	{
-		//ChassisSpeedSet(CAN1,CMOutput1,CMOutput2,CMOutput3,CMOutput4);
-		ChassisSpeedSet(CAN1,0,0,0,0);
+		ChassisSpeedSet(CAN1,CMOutput1,CMOutput2,CMOutput3,CMOutput4);
+		//ChassisSpeedSet(CAN1,800,800,800,800);
 	}
 	else
 	{
-		ChassisSpeedSet(CAN1,0,0,0,0);
+		//ChassisSpeedSet(CAN1,800,800,800,800);
+		ChassisSpeedSet(CAN1,CMOutput1,CMOutput2,CMOutput3,CMOutput4);
 	}
 }
 	float yaw_speed=0,pitch_speed=0;
@@ -115,7 +116,7 @@ void ChassisControl(float _T)
   */
 void GimbalControl(float _T)
 {
-
+	ControlMode=MC_NORMAL;
    if (SysMode!=SYS_CALISTATE&&SysMode!=SYS_STOPSTATE)
 	 {
 		 if (SysMode==SYS_NORMALSTATE)
@@ -124,7 +125,7 @@ void GimbalControl(float _T)
 				{
 				 yaw_speed = PID_calculate( 			_T,            //周期（单位：秒）
 																		0,				//前馈值
-																		GimbalYawPosRef,				//期望值（设定值）
+																		-GimbalYawPosRef,				//期望值（设定值）
 																		-Yaw,			//反馈值（）
 																		&GimbalYaw_Pos_PID_arg, //PID参数结构体
 																		&GimbalYaw_Pos_PID_val,	//PID数据结构体
@@ -155,7 +156,7 @@ void GimbalControl(float _T)
 																		0.2		//integration limit，积分限幅
 																		 );
 																		 
-				 GimbalCurrentSet(CAN1,GMYawOutput,GMPitchOutput,0);
+				 GimbalCurrentSet(CAN1,0,0,0);
 				}
 				else if (ControlMode==MC_MODE1)
 				{
@@ -208,7 +209,8 @@ void GimbalControl(float _T)
 																	 );
 			GimbalYawPosRef=-Yaw;
 			GimbalPitchPosRef=0.0f;
-			 GimbalCurrentSet(CAN1,GMYawOutput,GMPitchOutput,0);
+			 //GimbalCurrentSet(CAN1,GMYawOutput,GMPitchOutput,0);
+			 GimbalCurrentSet(CAN1,0,0,0);
 		 }
 	 }
 	 else
