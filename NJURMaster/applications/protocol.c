@@ -218,7 +218,7 @@ void RcDataAnalysis(RC_Ctrl_t *rc)
 		{
 			__temp=GimbalPitchPosRef-(rc->rc.ch1-CHANNELMIDDLE)*RC_PITCHSCALE;
 			GimbalPitchPosRef=LIMIT(__temp,PITCH_MIN,PITCH_MAX);
-			__temp=GimbalYawPosRef-(rc->rc.ch0-CHANNELMIDDLE)*RC_YAWSCALE;
+			__temp=GimbalYawPosRef+(rc->rc.ch0-CHANNELMIDDLE)*RC_YAWSCALE;
 			GimbalYawPosRef=LIMIT(__temp,-YAW_MAX-Yaw,YAW_MAX-Yaw);
 
 			ChassisGoToward=(rc->rc.ch3-CHANNELMIDDLE)*RC_TOWARD_SCALE;
@@ -538,6 +538,7 @@ void CanProtocolAnalysis(CanRxMsg * msg)
 						{
 							AllDataUnion.AllData.GimbalYawOffset = yaw_cali_sum/caliMaxTime;
 							yaw_cali_count = 0;
+							pitch_cali_sum = 0;
 							CALIFLAG &=~ GIMBALYAWCALING;
 						}
 					}
@@ -575,6 +576,7 @@ void CanProtocolAnalysis(CanRxMsg * msg)
 						{
 							AllDataUnion.AllData.GimbalPitchOffset = pitch_cali_sum/caliMaxTime;
 							pitch_cali_count = 0;
+							pitch_cali_sum = 0;
 							CALIFLAG &=~ GIMBALPITCHCALING;
 						}
 					}
