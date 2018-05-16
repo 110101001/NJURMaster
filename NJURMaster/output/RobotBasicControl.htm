@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\output\RobotBasicControl.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\output\RobotBasicControl.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Tue May 15 21:00:55 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Wed May 16 14:15:31 2018
 <BR><P>
 <H3>Maximum Stack Usage =        480 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1140,8 +1140,12 @@ Global Symbols
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BasicProtocolAnalysis
 </UL>
 
-<P><STRONG><a name="[d7]"></a>FireControl</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, controltask.o(i.FireControl))
-<BR><BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Duty_10ms
+<P><STRONG><a name="[d7]"></a>FireControl</STRONG> (Thumb, 176 bytes, Stack size 16 bytes, controltask.o(i.FireControl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = FireControl
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PID_calculate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Duty_10ms
 </UL>
 
 <P><STRONG><a name="[c0]"></a>GPIO_Init</STRONG> (Thumb, 144 bytes, Stack size 20 bytes, stm32f4xx_gpio.o(i.GPIO_Init))
@@ -1236,7 +1240,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RefereeSys_Send_Data
 </UL>
 
-<P><STRONG><a name="[e1]"></a>GimbalControl</STRONG> (Thumb, 670 bytes, Stack size 16 bytes, controltask.o(i.GimbalControl))
+<P><STRONG><a name="[e1]"></a>GimbalControl</STRONG> (Thumb, 660 bytes, Stack size 16 bytes, controltask.o(i.GimbalControl))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = GimbalControl &rArr; GimbalCurrentSet &rArr; CAN_Transmit
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PID_calculate
@@ -1453,6 +1457,7 @@ Global Symbols
 
 <P><STRONG><a name="[ca]"></a>PID_calculate</STRONG> (Thumb, 430 bytes, Stack size 0 bytes, pid.o(i.PID_calculate))
 <BR><BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GimbalControl
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FireControl
 <LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ChassisControl
 </UL>
 
@@ -1547,7 +1552,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RcDataAnalysis
 </UL>
 
-<P><STRONG><a name="[100]"></a>RcDataAnalysis</STRONG> (Thumb, 2088 bytes, Stack size 16 bytes, protocol.o(i.RcDataAnalysis))
+<P><STRONG><a name="[100]"></a>RcDataAnalysis</STRONG> (Thumb, 2134 bytes, Stack size 16 bytes, protocol.o(i.RcDataAnalysis))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = RcDataAnalysis &rArr; GetRcMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IsDeviceLost
@@ -2337,7 +2342,7 @@ Local Symbols
 </UL>
 
 <P><STRONG><a name="[d5]"></a>Duty_10ms</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, dutytasks.o(i.Duty_10ms))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Duty_10ms
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Duty_10ms &rArr; FireControl
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetInnerLoop
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FireControl

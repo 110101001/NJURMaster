@@ -41,7 +41,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -60,7 +60,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (users\sys_config.h)(0x5AF83936)
+I (users\sys_config.h)(0x5AFBBEDE)
 F (.\users\stm32f4xx_it.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\stm32f4xx_it.o --omf_browse .\output\stm32f4xx_it.crf --depend .\output\stm32f4xx_it.d)
 I (users\stm32f4xx_it.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -91,7 +91,7 @@ F (.\users\stm32f4xx_conf.h)(0x5AD9D86F)()
 F (.\users\stm32f4xx_it.h)(0x5AD9D86F)()
 F (.\users\startup_stm32f427_437xx.s)(0x5AD9D86F)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F427_437xx SETA 1"--list .\output\startup_stm32f427_437xx.lst --xref -o .\output\startup_stm32f427_437xx.o --depend .\output\startup_stm32f427_437xx.d)
 F (.\users\main.h)(0x5AD9D86F)()
-F (.\users\sys_config.h)(0x5AF83936)()
+F (.\users\sys_config.h)(0x5AFBBEDE)()
 F (.\drivers\bsp_flash.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\bsp_flash.o --omf_browse .\output\bsp_flash.crf --depend .\output\bsp_flash.d)
 I (drivers\bsp_flash.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -159,7 +159,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -178,7 +178,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\driver.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\driver.o --omf_browse .\output\driver.crf --depend .\output\driver.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -220,7 +220,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -239,7 +239,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\laser.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\laser.o --omf_browse .\output\laser.crf --depend .\output\laser.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -281,7 +281,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -300,7 +300,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\led.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -342,7 +342,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -361,7 +361,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\pwm.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\pwm.o --omf_browse .\output\pwm.crf --depend .\output\pwm.d)
 I (drivers\pwm.h)(0x5AD9D86F)
 I (.\users\main.h)(0x5AD9D86F)
@@ -404,7 +404,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -423,7 +423,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\rc.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\rc.o --omf_browse .\output\rc.crf --depend .\output\rc.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -465,7 +465,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -484,7 +484,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\timer.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\timer.o --omf_browse .\output\timer.crf --depend .\output\timer.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -526,7 +526,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -545,7 +545,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\usart2.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\usart2.o --omf_browse .\output\usart2.crf --depend .\output\usart2.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -587,7 +587,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -606,7 +606,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\usart3.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\usart3.o --omf_browse .\output\usart3.crf --depend .\output\usart3.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -648,7 +648,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -667,7 +667,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\usart6.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\usart6.o --omf_browse .\output\usart6.crf --depend .\output\usart6.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -709,7 +709,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -728,7 +728,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\encoder.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\encoder.o --omf_browse .\output\encoder.crf --depend .\output\encoder.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -770,7 +770,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -789,7 +789,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\spi.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\spi.o --omf_browse .\output\spi.crf --depend .\output\spi.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -831,7 +831,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -850,7 +850,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\mpu6500.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\mpu6500.o --omf_browse .\output\mpu6500.crf --depend .\output\mpu6500.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -892,7 +892,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -911,7 +911,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\drivers\ist8310.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\ist8310.o --omf_browse .\output\ist8310.crf --depend .\output\ist8310.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -953,7 +953,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -972,8 +972,8 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
-F (.\applications\protocol.c)(0x5AF843DE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\protocol.o --omf_browse .\output\protocol.crf --depend .\output\protocol.d)
+I (.\users\sys_config.h)(0x5AFBBEDE)
+F (.\applications\protocol.c)(0x5AFBCC81)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\protocol.o --omf_browse .\output\protocol.crf --depend .\output\protocol.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
 I (.\users\core_cm4.h)(0x5AD9D86F)
@@ -1014,7 +1014,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1033,7 +1033,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
 F (.\applications\modeduty.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\modeduty.o --omf_browse .\output\modeduty.crf --depend .\output\modeduty.d)
 I (.\users\main.h)(0x5AD9D86F)
@@ -1076,7 +1076,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1095,7 +1095,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\datatransfer.c)(0x5AF6E900)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\datatransfer.o --omf_browse .\output\datatransfer.crf --depend .\output\datatransfer.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1137,7 +1137,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1156,7 +1156,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\dutytasks.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\dutytasks.o --omf_browse .\output\dutytasks.crf --depend .\output\dutytasks.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1198,7 +1198,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1217,7 +1217,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\selfcheck.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\selfcheck.o --omf_browse .\output\selfcheck.crf --depend .\output\selfcheck.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1259,7 +1259,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1278,8 +1278,8 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
-F (.\applications\controltask.c)(0x5AFADA04)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\controltask.o --omf_browse .\output\controltask.crf --depend .\output\controltask.d)
+I (.\users\sys_config.h)(0x5AFBBEDE)
+F (.\applications\controltask.c)(0x5AFBC496)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\controltask.o --omf_browse .\output\controltask.crf --depend .\output\controltask.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
 I (.\users\core_cm4.h)(0x5AD9D86F)
@@ -1320,7 +1320,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1339,7 +1339,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\cantask.c)(0x5AF69E0B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\cantask.o --omf_browse .\output\cantask.crf --depend .\output\cantask.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1381,7 +1381,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1400,7 +1400,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\appinit.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\appinit.o --omf_browse .\output\appinit.crf --depend .\output\appinit.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1442,7 +1442,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1461,7 +1461,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\parameters.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\parameters.o --omf_browse .\output\parameters.crf --depend .\output\parameters.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1503,7 +1503,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1522,7 +1522,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\applications\imu.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\imu.o --omf_browse .\output\imu.crf --depend .\output\imu.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -1564,7 +1564,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -1583,7 +1583,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\libraries\STLibraries\misc.c)(0x5AD9D86E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d)
 I (libraries\STLibraries\misc.h)(0x5AD9D86E)
 I (libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -2488,7 +2488,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -2507,7 +2507,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\math\mymath.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\mymath.o --omf_browse .\output\mymath.crf --depend .\output\mymath.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -2549,7 +2549,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -2568,7 +2568,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\math\pid.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\pid.o --omf_browse .\output\pid.crf --depend .\output\pid.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -2610,7 +2610,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -2629,7 +2629,7 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)
 F (.\math\ramp.c)(0x5AD9D86F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\libraries\STLibraries -I.\users -I.\drivers -I.\applications -I.\math-I C:\Users\b1101\Documents\GitHub\NJURMaster\NJURMaster\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER -DSTM32F427XXX -D__FPU_PRESENT="1" -D__FPU_USED="1" -DARM_MATH_CM4 -D__CC_ARM-o .\output\ramp.o --omf_browse .\output\ramp.crf --depend .\output\ramp.d)
 I (.\users\main.h)(0x5AD9D86F)
 I (.\libraries\STLibraries\stm32f4xx.h)(0x5AD9D86E)
@@ -2671,7 +2671,7 @@ I (.\drivers\timer.h)(0x5AD9D86F)
 I (.\drivers\usart2.h)(0x5AD9D86F)
 I (.\drivers\usart3.h)(0x5AD9D86F)
 I (.\drivers\usart6.h)(0x5AD9D86F)
-I (.\applications\protocol.h)(0x5AD9D86F)
+I (.\applications\protocol.h)(0x5AFBA85E)
 I (.\applications\datatransfer.h)(0x5AD9D86F)
 I (.\applications\RefereeSystem.h)(0x5AD9D86F)
 I (.\applications\dutytasks.h)(0x5AD9D86F)
@@ -2690,4 +2690,4 @@ I (.\drivers\ist8310.h)(0x5AD9D86F)
 I (.\applications\imu.h)(0x5AD9D86F)
 I (.\applications\modeduty.h)(0x5AD9D86F)
 I (.\math\ramp.h)(0x5AD9D86F)
-I (.\users\sys_config.h)(0x5AF83936)
+I (.\users\sys_config.h)(0x5AFBBEDE)

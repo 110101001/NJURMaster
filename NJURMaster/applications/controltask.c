@@ -1,6 +1,8 @@
 #include "main.h"
 
-
+	int Yaw_last=0;
+	int Yaw_offset=0;
+	int dialing_current=0;
 //values for PID Calculate.
 float GimbalPitchPosRef=0.0f;
 float GimbalPitchGyrRef=0.0f;
@@ -117,9 +119,6 @@ void ChassisControl(float _T)
 void GimbalControl(float _T)
 {
 	
-	static Yaw_last;
-	static Yaw_offset;
-	
 	if(Yaw>0&&Yaw_last<0) Yaw_offset-=360;
 	if(Yaw<0&&Yaw_last>0) Yaw_offset+=360;
 	Yaw_last=Yaw;
@@ -134,7 +133,7 @@ void GimbalControl(float _T)
 				 yaw_speed = PID_calculate( 			_T,            //周期（单位：秒）
 																		0,				//前馈值
 																		GimbalYawPosRef,				//期望值（设定值）
-																		-(Yaw+Yaw_offset),			//反馈值（）
+																		-(Yaw),			//反馈值（）
 																		&GimbalYaw_Pos_PID_arg, //PID参数结构体
 																		&GimbalYaw_Pos_PID_val,	//PID数据结构体
 																		0.2		//integration limit，积分限幅
@@ -149,8 +148,8 @@ void GimbalControl(float _T)
 																		 );
 				 pitch_speed = PID_calculate( 			_T,            //周期（单位：秒）
 																		0,				//前馈值
-																		GimbalPitchPosRef,				//期望值（设定值）
-																		GMPitchEncoder.ecd_angle,			//反馈值（）
+																		-GimbalPitchPosRef,				//期望值（设定值）
+																		-GMPitchEncoder.ecd_angle,			//反馈值（）
 																		&GimbalPitch_Pos_PID_arg, //PID参数结构体
 																		&GimbalPitch_Pos_PID_val,	//PID数据结构体
 																		0.2		//integration limit，积分限幅
@@ -164,7 +163,7 @@ void GimbalControl(float _T)
 																		0.2		//integration limit，积分限幅
 																		 );
 																		 
-				 GimbalCurrentSet(CAN1,GMYawOutput,GMPitchOutput,0);
+				 GimbalCurrentSet(CAN1,GMYawOutput,GMPitchOutput,dialing_current);
 				}
 				else if (ControlMode==MC_MODE1)
 				{
@@ -202,7 +201,7 @@ void GimbalControl(float _T)
 			  pitch_speed = PID_calculate( 			_T,            //周期（单位：秒）
 																	0,				//前馈值
 																	0,				//期望值（设定值）
-																	GMPitchEncoder.ecd_angle,			//反馈值（）
+																	-GMPitchEncoder.ecd_angle,			//反馈值（）
 																	&GimbalPitch_Pos_PID_arg, //PID参数结构体
 																	&GimbalPitch_Pos_PID_val,	//PID数据结构体
 																	0.2		//integration limit，积分限幅
@@ -217,7 +216,7 @@ void GimbalControl(float _T)
 																	 );
 			GimbalYawPosRef=-Yaw;
 			GimbalPitchPosRef=0.0f;
-			 GimbalCurrentSet(CAN1,GMYawOutput,GMPitchOutput,0);
+			 GimbalCurrentSet(CAN1,0,GMPitchOutput,dialing_current);
 			 //GimbalCurrentSet(CAN1,0,0,0);
 		 }
 	 }
@@ -244,6 +243,28 @@ void FireControl(float _T)
 		 else
 		 {
 			 SetFrictionWheelSpeed(1000);
+		 }
+		 if(DIALING_STATE == WHEEL_ON)
+		 {
+			 dialing_current = PID_calculate( 			_T,            //周期（单位：秒）
+																	0,				//前馈值
+																	90,				//期望值（设定值）
+																	-DialingEncoder.filter_rate,			//反馈值（）
+																	&Slibing_Vec_PID_arg, //PID参数结构体
+																	&Slibing_Vec_PID_val,	//PID数据结构体
+																	0.2		//integration limit，积分限幅
+																	 );
+		 }
+		 else
+		 {
+			 dialing_current = PID_calculate( 			_T,            //周期（单位：秒）
+																	0,				//前馈值
+																	0,				//期望值（设定值）
+																	-DialingEncoder.filter_rate,			//反馈值（）
+																	&Slibing_Vec_PID_arg, //PID参数结构体
+																	&Slibing_Vec_PID_val,	//PID数据结构体
+																	0.2		//integration limit，积分限幅
+																	 );
 		 }
 	 }
 }

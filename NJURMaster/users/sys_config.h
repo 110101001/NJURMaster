@@ -70,8 +70,8 @@
 /************************rc parameter*************************/
 
 #define PITCH_MIN (-8.0f)
-#define PITCH_MAX (27.0f)
-#define YAW_MAX   (35.0f)
+#define PITCH_MAX (37.0f)
+#define YAW_MAX   (27.0f)
 #define CHANNELMIDDLE	(1024)
 #define RC_TOWARD_SCALE (1.0f)
 #define RC_LEFTRIGHT_SCALE (1.0f)
@@ -91,7 +91,7 @@
 #define CHASSIS_Vec_PID_OFF 	{	2.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define GIMBALP_Pos_PID_OFF 	{	6.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define GIMBALP_Vec_PID_OFF 	{	20.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
-#define GIMBALY_Pos_PID_OFF 	{	15.0f,	0.5f,	1.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
+#define GIMBALY_Pos_PID_OFF 	{	15.0f,	1.0f,	1.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define GIMBALY_Vec_PID_OFF 	{	15.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define SLIBLIN_Pos_PID_OFF 	{	1.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}
 #define SLIBLIN_Vec_PID_OFF 	{	1.0f,	0.0f,	0.0f,	0.0f,				0.0f,		0.0f,						0.0f	}

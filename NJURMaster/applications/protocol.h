@@ -71,7 +71,7 @@ enum
 	WHEEL_OFF
 };
 extern u8 WHEEL_STATE;
-
+extern u8 DIALING_STATE;
 #define RC_KEY_STOP (2)
 #define RC_KEY_RCMODE (3)
 #define RC_KEY_KEYBOARD (1)
