@@ -1,3 +1,3 @@
 # NJURMaster
     NJU RoboMasters Code
-    加油！ 
+    输了！
